@@ -1,0 +1,101 @@
+.distribui
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.ts_svg_group
+{
+    width: 50px;
+    height: 50px;
+}
+#ts_svg_output
+{
+    width: 50px;
+    height: 50px;
+}
+#ts_number
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    left: 0px;
+    font: inherit;
+    letter-spacing: 0px;
+    color: #FBDDEC;
+    z-index: 10;
+    align-content: center;
+    text-align: center;
+    vertical-align: bottom;
+    display: inline-grid;
+}
+#ts_svg_output svg > path
+{
+    stroke: #FBDDEC;
+}
+#ts_svg_output svg > circle
+{
+    fill: #FBDDEC;
+}
+
+#ts_svg_output2
+{
+    width: 50px;
+    height: 50px;
+}
+#ts_number2
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    left: 0px;
+    font: inherit;
+    letter-spacing: 0px;
+    color: #FBDDEC;
+    z-index: 10;
+    align-content: center;
+    text-align: center;
+    vertical-align: bottom;
+    display: inline-grid;
+}
+#ts_svg_output2 svg > path
+{
+    stroke: #FBDDEC;
+}
+#ts_svg_output2 svg > circle
+{
+    fill: #FBDDEC;
+}
+
+
+#ts_svg_output3
+{
+    width: 50px;
+    height: 50px;
+}
+#ts_number3
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    left: 0px;
+    font: inherit;
+    letter-spacing: 0px;
+    color: #FBDDEC;
+    z-index: 10;
+    align-content: center;
+    text-align: center;
+    vertical-align: bottom;
+    display: inline-grid;
+}
+#ts_svg_output3 svg > path
+{
+    stroke: #FBDDEC;
+}
+#ts_svg_output3 svg > circle
+{
+    fill: #FBDDEC;
+}

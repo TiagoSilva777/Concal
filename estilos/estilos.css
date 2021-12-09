@@ -1,0 +1,548 @@
+/*@font-face {
+  font-family: Rubik;
+  src: url('file:///C:/Users/Tiago Silva/Documents/Pagina/fonts/Rubik-Regular.ttf');
+}*/
+.corpo
+{
+	font-family: "Rubik", sans-serif;
+	border-bottom-style:none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+/*a:link
+{
+	color: inherit;
+}
+a:visited
+{
+	color: #009;
+}*/
+.links-especiais
+{
+	text-align: left;
+	font: normal normal 300 15px/18px Rubik;
+	letter-spacing: 0px;
+	color: #17AF95 !important;
+}
+h1, h2, h3, h4, h5, h6, p
+{
+	margin: 0;
+}
+.header
+{
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+.gerencia
+{
+	padding: 0 2% 0 2%;
+	width: 96%;
+	display: inline-block;
+}
+.acessibilidade
+{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	color:#17AF95;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	height: 58px;
+}
+.conteiner
+{
+	position:relative;
+	border: 0;
+	padding: 0;
+	margin: 0 auto 0 auto;
+	width: 1400px;
+}
+.acessibilidade-conteiner
+{
+	display: flex;
+	align-items: center;
+	position:relative;
+	border: 0;
+	padding: 0;
+	margin: 0 auto 0 auto;
+	width: 1400px;
+	height: 58px;
+}
+.acessibilidade-icones
+{
+	width: 30%;
+	float:left;
+	text-align:left;
+}
+.acessibilidade-centro
+{
+	width: 30%;
+	float:left;
+	text-align:center;
+	font-weight:bolder;
+}
+.acessibilidade-pesquisa
+{
+	width: 30%;
+	float:left;
+	text-align:right;
+	padding-left: 10%;
+}
+.funcionamento
+{
+	width: 100%;
+	height: 122px;
+	background: #EAF5F6 0% 0% no-repeat padding-box;
+	margin: 0 auto 0 auto;
+}
+.funcionamento-lista
+{
+	display: flex;
+  	align-items: center;
+	text-align:center;
+	height: 120px;
+	margin: 0 auto 0 auto;
+	width: 100%;
+}
+.funcinamento-lista-bloco
+{
+	float:left;
+	color:#17AF95;
+	margin-right: 5%;
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+  	height: 80px;
+	text-align:center;
+}
+.navegacao
+{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 66px;
+	background: #FEFDFD 0% 0% no-repeat padding-box;
+	text-align: left;
+	font: normal normal 300 15px Rubik;
+	color: #17AF95;
+}
+.whatsapp
+{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 66px;
+	background: #17AF95 0% 0% no-repeat padding-box;
+	justify-content: center;
+}
+.whatsapp-texto
+{
+	font-size: 22px;
+	color: #FEFDFD;
+	text-decoration: none;
+	text-align: center;
+}
+.anuncio
+{
+	width: 100%;
+	height: 239px;
+	margin: 50px auto 50px auto;
+	text-align:center;
+}
+.botao_saiba
+{
+	width: 204px;
+	height: 46px;
+	background: #17AF95 0% 0% no-repeat padding-box;
+	border: none;
+	border-radius: 12px;
+}
+.anuncio-quadro
+{
+	width: 100%;
+	height: 239px;
+	background: #E8335D;
+	border-radius: 20px;
+	margin: 0px auto 0px auto;
+	text-align:center;
+}
+.cetralizador
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+}
+.informacoes
+{
+	width: 15%;
+	float: left;
+}
+.arvore-categoria
+{
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	font: normal normal 300 16px Rubik;
+	color: #666565;
+}
+.categoria
+{
+	height: 28px;
+	width: 100%;
+	text-align: left;
+	opacity: 0.8;
+	font-size: 24px;
+	color: #666565;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.categoria-linhas
+{
+	border-bottom: 1px rgba(28%,28%,28%,50%) solid;
+	/*margin-top: 17px;*/
+	margin-bottom: 17px;
+}
+.gerencia .conteiner .informacoes :last-child
+{
+	border-bottom: none;
+}
+.gerencia .conteiner .grid-produtos > :nth-child(4n)
+{
+	border-right: none;
+}
+.categoria-lista
+{
+	list-style:none;
+	display: inline-block;
+	text-align: left;
+	font: normal normal bold 16px/19px Rubik;
+	letter-spacing: 0px;
+	color: #666565;
+	opacity: 0.8;
+	margin: 0;
+	padding: 0;
+}
+.categoria-lista li
+{
+	padding: 0 0 17px 0;
+}
+.categoria-sublista
+{
+	font: normal normal 300 15px/18px Rubik;
+}
+.grid-produtos
+{
+	width: 75%;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
+}
+.numeros
+{
+	text-align:center;
+	color:#17AF95;
+	font: normal normal 300 16px/19px Rubik;
+}
+.numero-container
+{
+	padding-bottom: 76px;
+	border-bottom: 1px rgba(28%,28%,28%,50%) solid;
+}
+.numeros-numero
+{
+	list-style:none;
+	display:inline-block;
+	width: 45px;
+	height: 45px;
+	/*background: #17AF95 0% 0% no-repeat padding-box;
+	border-radius: 50px;*/
+	text-align:center;
+	vertical-align:middle;
+	letter-spacing: 0px;
+	padding: 0;
+	/*color: #E4E4E4;*/
+	margin: 0 15px 0 15px;
+}
+
+section > div > ul
+{
+	margin: 0;
+	padding: 0;
+}
+.numeros .conteiner ul > :nth-child(1)
+{
+	background: #17AF95 0% 0% no-repeat padding-box;
+	border-radius: 50px;
+	width: 45px;
+	height: 45px;
+	color: rgb(255,255,255);
+}
+.page-number
+{
+	background-color:transparent;
+	margin-top: 12px;
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+	text-align:center;
+}
+.footer
+{
+	height: 600px;
+	background: #F3F2F1 0% 0% no-repeat padding-box;
+	width: 100%;
+}
+.quadro
+{
+	width: 200px;
+	height: 363px;
+	border-right: 1px rgba(28%,28%,28%,50%) solid;
+	float: left;
+	padding: 0px 30px;
+	margin-bottom: 95px;
+}
+.quadro-imagem
+{
+	width: 202px;
+	height: 202px;
+}
+.quadro-nome
+{
+	width: 192px;
+	height: 38px;
+	letter-spacing: 0px;
+	color: #666565;
+	text-align: left;
+	font: normal normal 300 19px Rubik;
+}
+
+.quadro-avaliacao
+{
+	width: 100%;
+	height: 11px;
+	font: normal normal 300 11px Roboto;
+	letter-spacing: 0px;
+	color: #666565;
+	text-align: left;
+}
+.quadro-interesse-nome-margem {
+    margin-bottom: 15px;
+    height: 60px;
+}
+.quadro-interesse-avaliacao-margem {
+    margin-bottom: 20px;
+}
+.quadro-nome-margem {
+	margin-bottom: 19px;
+	margin-top: 21px;
+}
+.quadro-avaliacao-margem {
+    margin-bottom: 30px;
+}
+.quadro-button
+{
+	width: 200px;
+	height: 37px;
+	background: #17AF95 0% 0% no-repeat padding-box;
+	border: none;
+	border-radius: 12px;
+	opacity: 1;
+}
+.quadro-button-cinza
+{
+	border: 1px solid #666565;
+	border-radius: 10px;
+	background-color: #F3F2F1;
+	width: 133px;
+	height: 33px;
+	font: normal normal 300 15px/18px Rubik;
+	letter-spacing: 0px;
+	color: #666565;
+}
+.quadro-button-text
+{
+	text-align: left;
+	font: normal normal 300 14px Roboto;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+.quadro-button-text-cinza
+{
+	text-align: left;
+	color: #666565;
+}
+.imagem-produto
+{
+	height: 200px;
+	width: 200px;
+}
+.interesse
+{
+	height: 35px;
+	text-align: left;
+	font-size: 28px;
+	letter-spacing: 0px;
+	color: #17AF95;
+	margin-top: 76px;
+	text-align: left;
+}
+.interesse-quadro
+{
+	width: 259px;
+	height: 315px;
+	float: left;
+	margin-right: 21px;
+}
+.bloco-categorias
+{
+	float:left;
+	width: 200px;
+	margin: 0 80px 0 0;
+}
+blockquote[class^="bloco-categorias"] ul li h3
+{
+	font: normal normal medium 16px/19px Rubik;
+	letter-spacing: 0px;
+	color: #3F3F3E;
+	padding-bottom: 9px;
+}
+.links-alternativos
+{
+	width: 100%;
+	margin-top: 44px;
+	height: 315px;
+}
+.links-a-borda
+{
+	border-bottom: 1px rgba(28%,28%,28%,50%) solid;
+}
+.menu-categorias
+{
+	width: 49%;
+	height: 20px;
+	float:left;
+	text-align: left;
+}
+.menu-navegacao
+{
+	width: 49%;
+	height: 20px;
+	float:left;
+	text-align: center;
+}
+.menu-lista
+{
+	list-style: none;
+	margin-top: 0;
+}
+.menu-item
+{
+	float: left;
+	width: 20%;
+}
+.navegacao a:link
+{
+	font-weight: 300;
+	color: inherit;
+}
+.quadro-button-nav
+{
+	display: flex;
+	align-items: center;
+	font: normal medium 14px Rubik;
+	letter-spacing: 0px;
+	color: #FEFDFD;
+	height: 40px;
+	background: #17AF95 0% 0% no-repeat padding-box;
+	border: none;
+	border-radius: 12px;
+	justify-content: center;
+}
+.button-coracao-dimesao
+{
+	width: 40px;
+	height: 40px;
+}
+.button-falar
+{
+	width: 174px;
+	height: 40px;
+}
+.navegacao .conteiner .menu-categorias::after {
+    content: url(icons/Icone-Recolhe.svg);
+	display: inline-block;
+}
+.estrela
+{
+	
+}
+.interesse-imagem
+{
+	height: 112px;
+	width: 112px;
+	margin: 0 auto 0 auto;
+}
+.interesse-caixa
+{
+	width: 229px;
+    height: 259px;
+    background: #F3F2F1 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    margin: -70px auto;
+}
+.alinha-quadro
+{
+	padding-top: 80px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.interesse-produtos
+{
+	padding-top: 60px;
+	padding-bottom: 80px;
+	height: 400px;
+}
+.bloco-categorias-lista
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul[class~="bloco-categorias-lista"] li
+{
+	font: normal normal 300 15px Rubik;
+	letter-spacing: 0px;
+	color: #666565;
+	margin: 0 0 11px 0;
+}
+.endereco
+{
+	width: 195px;
+	float:right;
+}
+.localizacao
+{
+	font: normal normal 300 15px/18px Rubik;
+	color: #666565;
+}
+.localizacao-quadro
+{
+	height: 70px;
+}
+.alinha-meio
+{
+	display: flex;
+  	align-items: center;
+}
+
+.endereco-margem
+{
+	margin-bottom: 32px;
+}
